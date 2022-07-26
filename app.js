@@ -11,6 +11,7 @@ const eight = document.querySelector(`.key8`)
 const nine = document.querySelector(`.key9`)
 const zero = document.querySelector(`.key11`)
 const remove = document.querySelector(`.key10`)
+const phoneNummber = document.querySelector(`.phone-nummber`)
 
 
 one.onclick = function write() {
@@ -69,4 +70,8 @@ remove.onclick = function write() {
     remove.addEventListener('click', () => {
         document.location.reload();
     });
+}
+
+phoneNummber.onclick = function remowePlaceholder() {
+    phoneNummber.placeholder = ``
 }

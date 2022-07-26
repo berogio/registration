@@ -1,0 +1,33 @@
+@media all and (max-width: 480px) {
+    .nav {
+        background-color: white;
+    }
+    .nav .exit {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-radius: 100%;
+        border-width: 1px;
+        border-color: #D7D7D7;
+        ;
+    }
+    .grid .content .enter-nummber {
+        display: flex;
+    }
+    .content .inputs {
+        margin-top: 8px;
+    }
+    .content .next-btn {
+        width: 243px;
+        margin-top: 32px;
+    }
+    .content .inputs .phone-nummber {
+        width: 150px;
+    }
+    .grid {
+        padding: 32px 16px;
+    }
+    .grid .container {
+        display: block;
+    }
+}

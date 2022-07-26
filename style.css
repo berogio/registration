@@ -1,0 +1,156 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            position: relative;
+            min-height: 100vh;
+        }
+        
+        .nav {
+            background-color: #F5F7FC;
+            font-family: nato_sans_georgia;
+            width: 100% (-30px);
+            height: 65px;
+            font-weight: bold;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 30px 0px 30px;
+        }
+        
+        .nav .exit {
+            background-color: red;
+            width: 35px;
+            height: 35px;
+            font-size: 23px;
+            text-align: center;
+            color: white;
+            align-items: center;
+            border-radius: 10px;
+            font-weight: 100;
+        }
+        
+        .nav .exit:hover {
+            background-color: #f70626a0;
+            cursor: pointer;
+        }
+        
+        .sms {
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .content .next-btn {
+            background-color: #F70628;
+            font-family: nato_sans_georgia;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            width: 482px;
+            height: 56px;
+            border-radius: 12px;
+            border: 0;
+            margin-top: 360px;
+        }
+        
+        .content .next-btn:hover {
+            background-color: #f70626a0;
+            cursor: pointer;
+        }
+        
+        .content {
+            font-family: nato_sans_georgia;
+            text-align: center;
+        }
+        
+        .footer {
+            font-family: nato_sans_georgia;
+            width: 100%;
+            height: 42px;
+            background-color: #333333;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer .help {
+            color: white;
+            opacity: 70%;
+            padding-right: 35px;
+        }
+        
+        .footer .language {
+            color: white;
+            opacity: 70%;
+            padding-left: 35px;
+        }
+        
+        .footer .help .chat-img {
+            background-color: #6c6c6c;
+            border-radius: 8px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        .content .inputs {
+            margin-top: 48px;
+        }
+        
+        .content .inputs .vorwal {
+            font-family: Montserrat;
+            font-weight: 500;
+            font-size: 16px;
+            height: 46px;
+            width: 130px;
+            border-radius: 30px;
+            margin-right: 12px;
+            padding: 0px 15px;
+        }
+        
+        .content .inputs .phone-nummber {
+            font-family: Montserrat;
+            font-weight: 500;
+            font-size: 16px;
+            height: 46px;
+            width: 200px;
+            border-radius: 30px;
+            padding: 0px 15px;
+        }
+        
+        .grid .content .enter-nummber {
+            margin-top: 48px;
+            margin-left: 10px;
+            display: none;
+        }
+        
+        .grid .container {
+            margin-top: 50px;
+            display: none;
+        }
+        
+        .grid .container .row {
+            display: flex;
+        }
+        
+        .grid .container .row .keys {
+            width: 100%;
+            height: 77px;
+            font-weight: 700;
+            font-size: 28px;
+            border: solid 1px;
+            border-color: #F1F2F5;
+            color: #20214D;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .grid .container .row .keys:hover {
+            background-color: #6c6c6c85;
+            cursor: pointer;
+        }

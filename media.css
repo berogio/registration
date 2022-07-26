@@ -30,4 +30,10 @@
     .grid .container {
         display: block;
     }
+    .grid .content .inputs .phone-nummber {
+        display: none;
+    }
+    .grid .content .inputs .nummber-input {
+        display: block;
+    }
 }

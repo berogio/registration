@@ -98,6 +98,8 @@
         }
         
         .content .inputs {
+            justify-content: center;
+            display: flex;
             margin-top: 48px;
         }
         
@@ -153,4 +155,15 @@
         .grid .container .row .keys:hover {
             background-color: #6c6c6c85;
             cursor: pointer;
+        }
+        
+        .nummber-input {
+            display: none;
+            font-size: 18px;
+            padding: 8px;
+            width: 160px;
+            height: 45px;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 25px;
         }

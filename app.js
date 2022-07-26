@@ -9,6 +9,9 @@ const six = document.querySelector(`.key6`)
 const seven = document.querySelector(`.key7`)
 const eight = document.querySelector(`.key8`)
 const nine = document.querySelector(`.key9`)
+const zero = document.querySelector(`.key11`)
+const remove = document.querySelector(`.key10`)
+
 
 one.onclick = function write() {
     const h2 = document.querySelector(".nummber-input");
@@ -56,4 +59,14 @@ nine.onclick = function write() {
     const h2 = document.querySelector(".nummber-input");
     let number = "9";
     h2.insertAdjacentHTML(`beforeend`, number);
+}
+zero.onclick = function write() {
+    const h2 = document.querySelector(".nummber-input");
+    let number = "0";
+    h2.insertAdjacentHTML(`beforeend`, number);
+}
+remove.onclick = function write() {
+    remove.addEventListener('click', () => {
+        document.location.reload();
+    });
 }

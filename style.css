@@ -157,7 +157,7 @@
             cursor: pointer;
         }
         
-        .nummber-input {
+        .grid .content .inputs .nummber-input {
             display: none;
             font-size: 18px;
             padding: 8px;
